@@ -8,6 +8,21 @@
 
 ## Commands
   - Commands are not terminated until the semicolon. SQL is case insensitive about key words and identifiers, except when identifiers are double-quoted to preserve the case.
-      
+  - Querying a table: 
+
+     ```
+     SELECT city, (temp_hi+temp_lo)/2 AS temp_avg, date FROM weather;
+     SELECT * FROM weather WHERE city = 'San Francisco' AND prcp > 0.0;
+     SELECT DISTINCT city FROM weather ORDER BY city;
+     ```
+  - Joins Between Tables
+        
+     ```
+     SELECT weather.city, weather.temp_lo, weather.temp_hi, cities.location
+         FROM weather, cities WHERE cities.name = weather.city;
+     ```
+
+## Links 
+  - https://www.postgresql.org/docs/9.6/static/index.html
 
 
