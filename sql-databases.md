@@ -94,7 +94,7 @@
   DELETE FROM tablename;
   ```
 ## Features
-- Views
+- **Views** Views allow to encapsulate the details of the structure of your tables, which might change as the application evolves, behind consistent interfaces.
 
   ```sql
   CREATE VIEW myview AS
@@ -104,8 +104,22 @@
 
   SELECT * FROM myview;
   ```
-  Views allow to encapsulate the details of the structure of your tables, which might change as the application evolves, behind consistent interfaces.
-- Foreign Keys
-- 
+- **Foreign Keys** The Foreign keys allows maintaining *referential integrity*. In the above example while inserting a new column to *weather* table, it is checked if a matching record exists in *cities* table. The *insert* is rejected in case the record is not found.
+
+  ```sql
+  CREATE TABLE cities (
+    city     varchar(80) primary key,
+    location point
+  );
+
+  CREATE TABLE weather (
+    city      varchar(80) references cities(city),
+    temp_lo   int,
+    temp_hi   int,
+    prcp      real,
+    date      date
+  );
+  ```
+- **Transactions** Transaction bundles multiple steps into a single, all-or-nothing operation. Intermediate states are not visible to other concurrent transactions, and in case of a failure none of the steps affec the database at all.
 ## Links 
 - https://www.postgresql.org/docs/9.6/static/index.html
