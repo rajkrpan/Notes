@@ -30,8 +30,6 @@
   Keyspace, column name and table name created using CQL are case insensitive unless enclosed in double quotation mark.
 
 
-
-
 ## Links
 - https://teddyma.gitbooks.io/learncassandra/content/
 - http://docs.datastax.com/en/cql/3.1/cql/cql_reference/cqlCommandsTOC.html (List of all CQL commands)
