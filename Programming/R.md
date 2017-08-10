@@ -1,6 +1,6 @@
 # Memory Profiling in R
-- To check all the memory allocaton use [profmem package] https://cran.r-project.org/web/packages/profmem/vignettes/profmem.html
-- For profiling use [lineprof package] http://adv-r.had.co.nz/memory.html#gc
+- To check all the memory allocaton use [profmem package](https://cran.r-project.org/web/packages/profmem/vignettes/profmem.html) 
+- For profiling use [lineprof package](http://adv-r.had.co.nz/memory.html#gc) 
 - To start with use garbage collection `gc()` or `gc(reset = T)`
 - `object.size(...)` will give the size of the object
 -

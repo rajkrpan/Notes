@@ -1,5 +1,5 @@
-###Filter in Calculate : Multiple Filter Optimization
-- [Link to sqlbi - Marco Russo] https://www.sqlbi.com/articles/filter-vs-calculatetable-optimization-using-cardinality-estimation/
+## Filter in Calculate : Multiple Filter Optimization
+- [Link to sqlbi - Marco Russo](https://www.sqlbi.com/articles/filter-vs-calculatetable-optimization-using-cardinality-estimation/)
 - In the following multiple filter
 ```sql
 OrdersInPlaceSingleFilter :=
