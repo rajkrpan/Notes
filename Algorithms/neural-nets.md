@@ -1,10 +1,10 @@
 # Neural Network
   - Neural networks is a biologically-inspired programming paradigm which enables a computer to learn from observational data.
-  - Neural networks take a large number of training examples, and then develop a system which can learn from those training examples. In other words, the neural network uses the examples to automatically infer rules. Furthermore, by increasing the number of training examples, the network can learn more and improve its accuracy.  
+  - Neural networks take a large number of training examples, and then develop a system which can learn from those training examples. In other words, the neural network uses the examples to automatically infer rules. Furthermore, by increasing the number of training examples, the network can learn more and improve its accuracy.
 ## RNN
   - A recurrent neural network (RNN) is a class of artificial neural network where connections between units form a directed cycle. This allows it to exhibit dynamic temporal behavior. Unlike feedforward neural networks, RNNs can use their internal memory to process arbitrary sequences of inputs. 
 ## LSTM
-  -   
+  - http://colah.github.io/posts/2015-08-Understanding-LSTMs/
 
 # Deep Learning
   - Deep learning a powerful set of techniques for learning in neural networks. 
