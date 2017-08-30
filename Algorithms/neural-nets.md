@@ -17,8 +17,10 @@
   - Cross-Validation set: This data set is used to compare the performances of the prediction algorithms that were created based on the training set. We choose the algorithm that has the best performance.
   - Test set: Now we have chosen our preferred prediction algorithm but we don't know yet how it's going to perform on completely unseen real-world data. So, we apply our chosen prediction algorithm on our test set in order to see how it's going to perform so we can have an idea about our algorithm's performance on unseen data. 
   - Check [this link](https://stats.stackexchange.com/questions/19048/what-is-the-difference-between-test-set-and-validation-set) for more info.  
+  - A brief introduction on [classification](https://cs231n.github.io/classification/)
 
 # Links
   - [Ebook : Basics of Neural Net and Deep Learning](http://neuralnetworksanddeeplearning.com/)
   - [Book : Elements of statistical learning](https://web.stanford.edu/~hastie/ElemStatLearn/)
   - [List of resources dedicated to RNN](https://github.com/kjw0612/awesome-rnn)
+  - [Course : Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/)
