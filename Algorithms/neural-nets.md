@@ -13,8 +13,8 @@
   - MNIST : is a simple computer vision dataset. It consists of images of handwritten digits, and labels for each image, telling us which digit it is.
 
 # Training, Validation and Test sets
-  - Training set: This is used to build up our prediction algorithm. Our algorithm tries to tune itself to the quirks of the training data sets. In this phase we usually create multiple algorithms in order to compare their performances during the Cross-Validation Phase.
-  - Cross-Validation set: This data set is used to compare the performances of the prediction algorithms that were created based on the training set. We choose the algorithm that has the best performance.
+  - Training set: This is used to build up our prediction algorithm. The algorithm tries to tune itself to the quirks of the training data sets. In this phase one create multiple algorithms in order to compare their performances during the Cross-Validation Phase.
+  - Cross-Validation set: This data set is used to compare the performances of the prediction algorithms that were created based on the training set. One choose the algorithm that has the best performance.
   - Test set: Now we have chosen our preferred prediction algorithm but we don't know yet how it's going to perform on completely unseen real-world data. So, we apply our chosen prediction algorithm on our test set in order to see how it's going to perform so we can have an idea about our algorithm's performance on unseen data. 
   - Check [this link](https://stats.stackexchange.com/questions/19048/what-is-the-difference-between-test-set-and-validation-set) for more info.  
   - A brief introduction on [classification](https://cs231n.github.io/classification/)
