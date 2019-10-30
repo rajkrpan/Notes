@@ -1,10 +1,14 @@
+# Moving in Vim command line
+  - CTRL + f -> To edit you command in normal mode
+
 # Tabularize
-- Aligning assignments by = (:Tab /:)
+  - :Tab /= -> Aligning text by =
+  - More info [http://vimcasts.org/episodes/aligning-text-with-tabular-vim/]
 
 # Buffers
-- Move between buffers using :bn, :bp
-- :ls to list open buffers
-- :b <Tab> cycled through the list of buffers
+  - :bn or :bp -> Move between buffers
+  - :ls -> list open buffers
+  - :b <Tab> -> cycled through the list of buffers
 
 # FZF
 - :FZF " find file under current directory
@@ -20,6 +24,28 @@
 - In Shell CTRL + R history reverse search
 
 # Tabs
-- Next tab: gt
-- Prior tab: gT
-- Numbered tab: nnngt
+  - Open file in a tab
+  - Next tab: gt
+  - Prior tab: gT
+  - Numbered tab: {n}gt
+
+# Markers
+  - ma -> will create mark with letter a
+  - 'a -> jump to mark a (begining of line)
+  - `a` -> jump to mark a (exact location) 
+  - :marks -> list all the marks
+  - mA -> create a global mark
+
+# Netrw
+  - :Explore -> open file explorer
+  - :Vexplore or :Sexplore -> open file explorer in vertical or horizontal window
+
+# Macros
+  - qa -> start recoding macro in 'a'
+  - q -> stop recoding macro
+  - @a -> apply macro stored in 'a'
+
+# Windows split
+  - :split or :vsplit -> horizontal or vertical split
+  - CTRL + w + w -> Cycle to next window
+  - CTRL + w + hjkl -> Move to left,down,up,right window
