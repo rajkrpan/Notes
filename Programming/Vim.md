@@ -2,7 +2,8 @@
   - CTRL + f -> To edit you command in normal mode
 
 # Tabularize
-  - :Tab /= -> Aligning text by =
+  - :Tabularize /= -> Aligning text by =
+  - :Tabularize -> Reuse last pattern
   - More info [http://vimcasts.org/episodes/aligning-text-with-tabular-vim/]
 
 # Buffers
@@ -25,9 +26,9 @@
 
 # Tabs
   - Open file in a tab
-  - Next tab: gt
-  - Prior tab: gT
-  - Numbered tab: {n}gt
+  - gt -> Next tab
+  - gT -> Prior tab
+  - {n}gt -> Numbered tab
 
 # Markers
   - ma -> will create mark with letter a
