@@ -1,17 +1,41 @@
-# Moving in Vim command line
+# Things to learn
+  - How to get file path in vim
+  - how to use ctrl-n and ctrl-p in command mode so that it use search instead of move between recent commands
+  -
+
+# Editing
+## Autocompletion
+
+# Moving around
+## Moving in Vim command line
   - CTRL + f -> To edit you command in normal mode
+  - CTRL + n/p -> To move between recent commands
+  - q: -> Open vim window with command history
+  - q/ or q? -> Open vim window with search history
 
-# Tabularize
-  - :Tabularize /= -> Aligning text by =
-  - :Tabularize -> Reuse last pattern
-  - More info [http://vimcasts.org/episodes/aligning-text-with-tabular-vim/]
+# Windows/Tabs/Buffers
+## Windows split
+  - :split or :vsplit -> horizontal or vertical split
+  - CTRL + w + w -> Cycle to next window
+  - CTRL + w + hjkl -> Move to left,down,up,right window
 
-# Buffers
+## Tabs
+  - Open file in a tab
+  - gt -> Next tab
+  - gT -> Prior tab
+  - {n}gt -> Numbered tab
+
+## Buffers
   - :bn or :bp -> Move between buffers
   - :ls -> list open buffers
   - :b <Tab> -> cycled through the list of buffers
 
-# FZF
+# File Exploration
+## Netrw
+  - :Explore -> open file explorer
+  - :Vexplore or :Sexplore -> open file explorer in vertical or horizontal window
+
+## FZF
 - :FZF " find file under current directory
 - :FZF ~ " find file under HOME directory
 - Ctrl + N and Ctrl + P or the arrow key to navigate through the list of files
@@ -24,29 +48,20 @@
 - In Shell OPT + C search for directory
 - In Shell CTRL + R history reverse search
 
-# Tabs
-  - Open file in a tab
-  - gt -> Next tab
-  - gT -> Prior tab
-  - {n}gt -> Numbered tab
-
 # Markers
   - ma -> will create mark with letter a
   - 'a -> jump to mark a (begining of line)
-  - `a` -> jump to mark a (exact location) 
+  - \`a -> jump to mark a (exact location) 
   - :marks -> list all the marks
   - mA -> create a global mark
-
-# Netrw
-  - :Explore -> open file explorer
-  - :Vexplore or :Sexplore -> open file explorer in vertical or horizontal window
 
 # Macros
   - qa -> start recoding macro in 'a'
   - q -> stop recoding macro
   - @a -> apply macro stored in 'a'
 
-# Windows split
-  - :split or :vsplit -> horizontal or vertical split
-  - CTRL + w + w -> Cycle to next window
-  - CTRL + w + hjkl -> Move to left,down,up,right window
+# Tabularize
+  - :Tabularize /= -> Aligning text by =
+  - :Tabularize -> Reuse last pattern
+  - More info [http://vimcasts.org/episodes/aligning-text-with-tabular-vim/]
+
