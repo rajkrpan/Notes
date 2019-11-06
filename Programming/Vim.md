@@ -10,14 +10,19 @@
 ## Moving in Vim command line
   - CTRL + f -> To edit you command in normal mode
   - CTRL + n/p -> To move between recent commands
+  - CTRL + u -> Delete upto the begining of line 
+  - CTRL + b -> Cursor to begining of line
+  - CTRL + e -> Cursor to end of line
   - q: -> Open vim window with command history
   - q/ or q? -> Open vim window with search history
 
 # Windows/Tabs/Buffers
-## Windows split
+## Windows
   - :split or :vsplit -> horizontal or vertical split
   - CTRL + w + w -> Cycle to next window
-  - CTRL + w + hjkl -> Move to left,down,up,right window
+  - CTRL + w + hjkl -> Go to left,down,up,right window
+  - CTRL + w + p -> Go to previous window
+  - :ZoomToggle or <Leader>z -> Zoom in/out of a window 
 
 ## Tabs
   - Open file in a tab
