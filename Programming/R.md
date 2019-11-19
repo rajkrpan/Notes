@@ -1,3 +1,8 @@
+Learn debugging using R-studio
+https://support.rstudio.com/hc/en-us/articles/205612627-Debugging-with-RStudio
+https://adv-r.hadley.nz/debugging.html
+https://stackoverflow.com/questions/29358659/line-by-line-debugging-in-r-studio
+
 # Memory Profiling in R
 - To check all the memory allocaton use [profmem package](https://cran.r-project.org/web/packages/profmem/vignettes/profmem.html) 
 - For profiling use [lineprof package](http://adv-r.had.co.nz/memory.html#gc) 
