@@ -20,13 +20,13 @@
 
 # Moving around
 ## Moving in Vim command line
-> CTRL + f   -> To edit you command in normal mode
-> CTRL + n/p -> To move between recent commands
-> CTRL + u   -> Delete upto the begining of line
-> CTRL + b   -> Cursor to begining of line
-> CTRL + e   -> Cursor to end of line
-> q:         -> Open vim window with command history
-> q/ or q?   -> Open vim window with search history
+- CTRL + f   -> To edit you command in normal mode
+- CTRL + n/p -> To move between recent commands
+- CTRL + u   -> Delete upto the begining of line
+- CTRL + b   -> Cursor to begining of line
+- CTRL + e   -> Cursor to end of line
+- q:         -> Open vim window with command history
+- q/ or q?   -> Open vim window with search history
 
 # Windows/Tabs/Buffers
 ## Windows
@@ -41,6 +41,15 @@
 - gt      -> Next tab
 - gT      -> Prior tab
 - {n}gt   -> Numbered tab
+
+## Tools
+# Git (vim-fugitive)
+- :Gdiff master -> Diff of current file with the one in master branch
+- :Gedit branch:/foo/bar.c -> Open file in a different branch
+- :Gsplit branc:% -> Open the current file in a different branch
+- Add visually selected chunk for commit
+  - :Gdiff -> Visual select -> :diffput -> Save index file (you can edit it the you like)
+
 
 ## Buffers
 - :bn or :bp -> Move between buffers
